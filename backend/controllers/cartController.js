@@ -5,12 +5,14 @@ exports.cartAdd = catchAsyncError (async (req,res) => {
     //req.body.user = req.user.id
     const user = await User.findOne({email:req.body.user.email})
     const item = req.body.cart
+    
     if(!user) {
       return next(new ErrorHandler('Login first to add items'));
   }
         const cart = user.cartItems
-        const isItemExist = cart.find(i =>i.product === item.product)
         
+        const isItemExist = cart.find(i =>i.product == item.product)
+      
         
         if(isItemExist){
             res.status(201).json({

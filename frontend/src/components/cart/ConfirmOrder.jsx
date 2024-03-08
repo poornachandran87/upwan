@@ -6,10 +6,12 @@ import { Link, useNavigate } from 'react-router-dom';
 import CheckoutSteps from './CheckoutStep';
 
 export default function ConfirmOrder () {
-    const { shippingInfo, items:cartItems } = useSelector(state => state.cartState);
+    const { items:cartItems } = useSelector(state => state.cartState);
+    const shippingInfo = JSON.parse(localStorage.getItem('shippingInfo'))
+    console.log(shippingInfo);
     const { user } = useSelector(state => state.authState);
     const navigate = useNavigate();
-    const itemsPrice = cartItems.reduce((acc, item)=> (acc + item.price * item.quantity),0);
+    const itemsPrice = cartItems && cartItems.reduce((acc, item)=> (acc + item.price * item.quantity),0);
     const shippingPrice = itemsPrice > 200 ? 0 : 25;
     let taxPrice = Number(0.05 * itemsPrice);
     const totalPrice = Number(itemsPrice + shippingPrice + taxPrice).toFixed(2);
@@ -40,13 +42,13 @@ export default function ConfirmOrder () {
 
                 <h4 className="mb-3">Shipping Info</h4>
                 <p><b>Name:</b> {user.name}</p>
-                <p><b>Phone:</b> {shippingInfo.phoneNo}</p>
-                <p className="mb-4"><b>Address:</b> {shippingInfo.address}, {shippingInfo.city}, {shippingInfo.postalCode}, {shippingInfo.state}, {shippingInfo.country} </p>
+                <p><b>Phone:</b> {shippingInfo && shippingInfo.phoneNo}</p>
+                <p className="mb-4"><b>Address:</b> {shippingInfo && shippingInfo.address}, {shippingInfo && shippingInfo.city}, {shippingInfo && shippingInfo.postalCode}, {shippingInfo && shippingInfo.state}, {shippingInfo && shippingInfo.country} </p>
                 
                 <hr />
                 <h4 className="mt-4">Your Cart Items:</h4>
 
-                    {cartItems.map(item => (
+                    {cartItems && cartItems.map(item => (
                             <Fragment>
                                 <div className="cart-item my-1">
                                     <div className="row">

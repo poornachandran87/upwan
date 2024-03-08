@@ -92,6 +92,7 @@ export const getCart =  async (dispatch) => {
         dispatch(getCartItemRequest());
         
         const { data } = await axios.get('/api/v1/cartitems')
+        console.log(data);
         dispatch(getCartItemSuccess(data));
 
 

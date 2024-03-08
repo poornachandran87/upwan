@@ -17,7 +17,8 @@ export default function Payment() {
     const navigate = useNavigate();
     const orderInfo = JSON.parse(sessionStorage.getItem('orderInfo'))
     const { user } = useSelector(state => state.authState)
-    const {items:cartItems, shippingInfo } = useSelector(state => state.cartState)
+    const {items:cartItems } = useSelector(state => state.cartState)
+    const shippingInfo = JSON.parse(localStorage.getItem('shippingInfo'))
     const { error:orderError } = useSelector(state => state.orderState)
 
     const paymentData = {

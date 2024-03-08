@@ -45,17 +45,17 @@ import UserList from './components/admin/UserList';
 import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
 
-// import { getCart } from './actions/cartActions';
+import { getCart } from './actions/cartActions';
 
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
   useEffect(() => {
     store.dispatch(loadUser)
-    // store.dispatch(getCart)
+    store.dispatch(getCart)
     async function getStripeApiKey(){
       const {data} = await axios.get('/api/v1/stripeapi')
-      console.log(data.stripeApiKey)
+      
       setStripeApiKey(data.stripeApiKey)
     }
     getStripeApiKey()
