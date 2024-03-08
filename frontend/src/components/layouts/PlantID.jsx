@@ -7,12 +7,7 @@ import './PlantId.css'
 const PlantId = () =>{
     const [plantFile, setPlantFile] = useState(null);
     const [plantData, setPlantData] = useState(null);
-    const disabled = ()=>{
-        if (plantFile == null){
-          return true
-        }
-        return false
-    }
+    
     const handleInput = (files) => {
         setPlantFile(files);
     };
@@ -71,7 +66,7 @@ const PlantId = () =>{
 
   
   </div>
-      <button style={{ backgroundColor: 'green', color: 'white', padding: '10px 20px', borderRadius: '5px', border: 'none', marginTop: '10px' }} disabled={disabled} onClick={setPicIdData}>
+      <button style={{ backgroundColor: 'green', color: 'white', padding: '10px 20px', borderRadius: '5px', border: 'none', marginTop: '10px' }}  onClick={setPicIdData}>
         Identify Plant
       </button>
       <br />
