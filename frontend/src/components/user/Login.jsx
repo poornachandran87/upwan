@@ -12,7 +12,7 @@ export default function Login(){
     const navigate = useNavigate()
     const location = useLocation()
 
-    const redirect = location.search?'/'+location.search.split('=')[1]:'/home';
+    const redirect = location.search?'/'+location.search.split('=')[1]:'/';
     const {loading,error,isAuthenticated} = useSelector(state => state.authState)
     const submitHandler = (e) =>{
         e.preventDefault()
