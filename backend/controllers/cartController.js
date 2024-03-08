@@ -10,7 +10,7 @@ exports.cartAdd = catchAsyncError (async (req,res) => {
   }
         const cart = user.cartItems
         const isItemExist = cart.find(i =>i.product === item.product)
-        console.log(cart.product)
+        
         
         if(isItemExist){
             res.status(201).json({
