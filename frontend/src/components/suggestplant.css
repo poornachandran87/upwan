@@ -1,0 +1,154 @@
+.container-fluids{
+    padding-top: 2rem;
+    background-color: rgb(215, 247, 213);
+    height:200rem ;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-vector/floral-boho-neutral-abstract-background-with-flower-leaf_181182-26501.jpg');
+}
+.container{
+    max-width:-webkit-fill-available;
+}
+
+.headings{
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 5rem;
+   color:rgb(16, 91, 49);
+    align-items: center;
+    background-image: initial;
+    
+}
+
+
+.card2{
+    height:15rem;
+    width: 47rem;
+    font-size: 2rem;
+    color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+    
+}
+
+.card1{
+    height:20rem;
+    width: 47rem;
+    font-size: 2rem;
+    color: white;
+    border-width: 1rem black ;
+    border: 2px solid black;
+    border-radius: 1rem;
+    
+}
+.div3{
+    padding: 1rem 1rem 1rem 1rem;
+    padding-block-end: 5rem;
+    justify-content:left;
+    flex-direction: column;
+    display:flex;
+    background-size:auto;
+    align-items: center;
+    
+}
+.div4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list-group-item{
+    padding-left: 8%;
+    
+    background-color: initial ;
+    
+    backdrop-filter: blur(50px);
+    color: black;
+}
+.card-header{
+    color:rgb(16, 91, 49);
+    background-color: white;
+    
+}
+
+.btn1{
+    padding-inline: 2rem;
+    height: 4rem;
+    width: fit-content;
+    font-size: 1.5rem;
+    background-color: white;
+    color:rgb(16, 91, 49);
+    font-weight: bolder;
+    border-color: rgb(16, 91, 49) ;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    
+   
+}
+
+.li{
+    backdrop-filter: blur(5px);
+    background-color: initial;
+}
+
+.list-group.list-group-flush{
+background-color: initial;
+    backdrop-filter: blur(5px);
+    
+    background-image: initial;
+}
+
+
+.list-group-item.selected {
+
+    backdrop-filter: blur(50px);
+    background-color:rgb(17, 73, 42);
+   /* color: rgb(17, 73, 42);
+   background-color: white; */
+   color: white;
+  }
+  .header{
+    font-weight: bolder;
+    font-size:3rem;
+    padding:2rem  ;
+    color: rgb(241, 248, 242);
+    backdrop-filter: blur(50px);
+    background-color:rgb(17, 73, 42);
+  }
+
+  .image{
+    height:100%;
+    width: 100%;
+
+  }
+  .plant-name{
+    font-size: 3rem;
+    color :rgb(17, 73, 42);
+    
+  }
+  .h2{
+    font-size: larger;
+    padding: 1rem;
+  }
+
+.suggested-plant{
+    text-align: center;
+    background-color:white;
+    padding: 2rem;
+}
+
+.suggested-plant.h2{
+    text-align: center;
+
+}
+
+.price{
+    padding-top: 2rem;
+    color: rgb(37, 106, 45);
+}

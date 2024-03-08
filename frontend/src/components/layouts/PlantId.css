@@ -1,0 +1,71 @@
+.plant-identify-conatiner{
+    background-image:url( "https://img.freepik.com/free-vector/watercolor-botanical-garden-background_23-2150230727.jpg");
+    height: fit-content;
+    max-width:-webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+    background-repeat: no-repeat; /* Add this line to prevent background image repeat */
+  background-size: cover;
+    align-items: center;
+}
+
+.identify-heading{
+font-size: 3rem;
+
+backdrop-filter: blur(50px);
+
+}
+
+
+.upload{
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+   
+}
+
+.upload-div{
+    background-color: rgb(122, 77, 11);
+    justify-content: center;
+    height: 15rem;
+    width: 20rem;
+    padding: 2rem;
+    background-position: center;
+    background-image: url("https://c0.wallpaperflare.com/preview/652/943/804/close-up-fresh-freshness-garden.jpg");
+}
+
+
+#plantId{
+
+    
+}
+
+.plant-is{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.plants-are{
+    display: flex;
+    flex-direction: column;
+  width: 80rem;
+ padding: 2rem;
+    border:  solid black;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    
+}
+.plant-name-is{
+    color: rgb(72, 23, 59);
+}
+
+.more-info{
+    margin-bottom: 0%;
+    margin-left: 1rem;
+}

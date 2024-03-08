@@ -1,0 +1,98 @@
+.App-header {
+    background-color: #104716;
+    min-height: 5rem;
+    width: 100%;
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center;
+    justify-content:flex-start; /* Distribute elements left and right */
+    font-size: calc(10px + 2vmin);
+    color: white; /* Set all text to white */
+    padding: 1rem 2rem;
+    
+  }
+  
+  .App-header .nav {
+    display: flex; /* Make the nav items flex items */
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove any default margins */
+  }
+  
+  .App-header .upwan,
+  .App-header .sections li a,
+  .App-header .btn,
+  .App-header .nav-link {
+    color: white; /* Set specific elements to white */
+  }
+  
+  .App-header .sections {
+    display: flex; /* Make the sections items flex items */
+    gap: 1rem; /* Add equal spacing between sections */
+    padding-left: 5rem;
+    justify-content: flex-end;
+    
+    
+    
+  }
+  
+  /* Additional styling for other elements (optional) */
+  .App-header .dropdown-menu {
+    color:  black;
+  }
+  
+  
+  
+  .dropdown-menu li:first-child a {
+    color: black; /* Targets the first child of the dropdown menu, which is "Indoor Plants" */
+  }
+  
+  .dropdown-menu li:not(:first-child) a {
+    color: inherit; /* Keeps the default color for other dropdown items */
+  }
+  
+.header-search-btn{
+height: 37px;
+width: 100px;
+background-color:#104716;
+color: white;
+border-radius: 5px;
+border: 1px solid green ;
+align-items: center;
+justify-items: center;
+font-size:large;
+ } 
+
+.d-flex{
+
+align-items: center;
+justify-items: center;
+padding-left: 5rem;
+padding-right: 5rem;
+width: 30rem;
+
+ }
+ 
+
+
+/* Bootstrap classes for centering (if you're using Bootstrap) */
+.sections2 > * {
+  margin: 0 auto;
+}
+
+/* Optional styling for specific elements */
+#login_btn {
+  /* Adjust padding and margin as needed */
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+/* #cart {
+  
+  
+  
+} */
+
+#cart_count {
+  /* Adjust margin and color as needed */
+  margin-left: 5px;
+  color: white;
+}

@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Glorious Green Fern",
+        "price": 12.99,
+        "description": "The Glorious Green Fern is a vibrant addition to any home or garden, with lush fronds and a love for shade.",
+        "ratings": 4.8,
+        "images": [
+            {
+                "image": "/images/plants/fern1.jpg"
+            },
+            {
+                "image": "/images/plants/fern2.jpg"
+            }
+        ],
+        "category": "Indoor Plants",
+        "seller": "Plant Paradise",
+        "stock": 20,
+        "numOfReviews": 10,
+        "reviews": []
+    },{
+        "name": "Peaceful Palm Tree",
+        "price": 29.99,
+        "description": "The Peaceful Palm Tree brings a tropical vibe to any space, with its graceful fronds and easy-going nature.",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "/images/plants/palm1.jpg"
+            },
+            {
+                "image": "/images/plants/palm2.jpg"
+            }
+        ],
+        "category": "Indoor Plants",
+        "seller": "Greenery Garden",
+        "stock": 15,
+        "numOfReviews": 8,
+        "reviews": []
+    },{
+        "name": "Radiant Rose Bush",
+        "price": 19.99,
+        "description": "The Radiant Rose Bush blooms with beautiful flowers in a variety of colors, adding elegance and fragrance to your garden.",
+        "ratings": 4.2,
+        "images": [
+            {
+                "image": "/images/plants/rose1.jpg"
+            },
+            {
+                "image": "/images/plants/rose2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Blossom Nursery",
+        "stock": 25,
+        "numOfReviews": 12,
+        "reviews": []
+    },{
+        "name": "Lavish Lavender Plant",
+        "price": 15.99,
+        "description": "The Lavish Lavender Plant fills the air with its soothing scent and boasts beautiful purple blooms, perfect for aromatherapy and garden aesthetics.",
+        "ratings": 4.7,
+        "images": [
+            {
+                "image": "/images/plants/lavender1.jpg"
+            },
+            {
+                "image": "/images/plants/lavender2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Serene Gardens",
+        "stock": 18,
+        "numOfReviews": 10,
+        "reviews": []
+    },
+    {
+        "name": "Sunny Sunflower",
+        "price": 8.99,
+        "description": "The Sunny Sunflower brightens any garden with its large, cheerful blooms and follows the sun throughout the day.",
+        "ratings": 4.6,
+        "images": [
+            {
+                "image": "/images/plants/sunflower1.jpg"
+            },
+            {
+                "image": "/images/plants/sunflower2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Sunshine Farms",
+        "stock": 30,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Majestic Maple Tree",
+        "price": 49.99,
+        "description": "The Majestic Maple Tree displays stunning autumn foliage and provides ample shade and beauty for your landscape.",
+        "ratings": 4.9,
+        "images": [
+            {
+                "image": "/images/plants/maple1.jpg"
+            },
+            {
+                "image": "/images/plants/maple2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Nature's Nursery",
+        "stock": 10,
+        "numOfReviews": 9,
+        "reviews": []
+    },
+    {
+        "name": "Delicate Daffodil Bulbs",
+        "price": 5.99,
+        "description": "The Delicate Daffodil Bulbs herald the arrival of spring with their charming yellow blossoms and are easy to grow in gardens or containers.",
+        "ratings": 4.3,
+        "images": [
+            {
+                "image": "/images/plants/daffodil1.jpg"
+            },
+            {
+                "image": "/images/plants/daffodil2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Springtime Seeds",
+        "stock": 50,
+        "numOfReviews": 7,
+        "reviews": []
+    },
+    {
+        "name": "Tranquil Tulip Trio",
+        "price": 12.99,
+        "description": "The Tranquil Tulip Trio features three stunning tulip varieties in one pot, creating a colorful and harmonious display for your garden.",
+        "ratings": 4.4,
+        "images": [
+            {
+                "image": "/images/plants/tulip1.jpg"
+            },
+            {
+                "image": "/images/plants/tulip2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Bloom Brigade",
+        "stock": 20,
+        "numOfReviews": 11,
+        "reviews": []
+    },{
+        "name": "Elegant Eucalyptus Tree",
+        "price": 34.99,
+        "description": "The Elegant Eucalyptus Tree adds a touch of sophistication to any landscape with its silvery-blue foliage and refreshing aroma.",
+        "ratings": 4.7,
+        "images": [
+            {
+                "image": "/images/plants/eucalyptus1.jpg"
+            },
+            {
+                "image": "/images/plants/eucalyptus2.jpg"
+            }
+        ],
+        "category": "Outdoor Plants",
+        "seller": "Aussie Arboretum",
+        "stock": 15,
+        "numOfReviews": 13,
+        "reviews": []
+    },{
+        "name": "Vivid Venus Flytrap",
+        "price": 17.99,
+        "description": "The Vivid Venus Flytrap is a carnivorous plant that captures insects with its unique trap mechanism, making it a fascinating addition to any collection.",
+        "ratings": 4.6,
+        "images": [
+            {
+                "image": "/images/plants/venus1.jpg"
+            },
+            {
+                "image": "/images/plants/venus2.jpg"
+            }
+        ],
+        "category": "Indoor Plants",
+        "seller": "Carnivore Creations",
+        "stock": 8,
+        "numOfReviews": 6,
+        "reviews": []
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+]

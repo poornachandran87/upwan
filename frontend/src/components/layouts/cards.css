@@ -1,0 +1,48 @@
+.card-img-topss{
+    width: 286.4px;
+    height: 300px;
+    background-repeat: initial;
+    border-radius: 1rem 1rem 0 0;
+}
+
+ .cardss{
+    
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    
+    
+  } 
+
+ 
+
+.event-cardsss {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+  }
+.card-bodyss {
+  background-color:#104716;
+  justify-content: center;
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Optionally center the button vertically */
+  height: 4rem;
+  border-radius:  0 0 1rem 1rem ;
+ }
+
+
+  .card-titless {
+    color: rgb(255, 255, 255);
+   
+  }
+
+ .btn-primaryss {
+    background-color: #104716;
+    border-color:#104716;
+    color:white;
+    font-size: 2rem;
+  }
+ 
