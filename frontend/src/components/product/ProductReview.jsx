@@ -1,7 +1,7 @@
 export default function ProductReview({reviews}) {
     return (
         <div class="reviews w-75">
-            <h3>Other's Reviews:</h3>
+            <h3>Reviews:</h3>
             <hr />
             {reviews && reviews.map(review => (
                 <div key={review._id} class="review-card my-3">

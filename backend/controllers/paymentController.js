@@ -4,7 +4,7 @@ const stripe = require('stripe')("sk_test_51OgkfFSFO8k0A269WG9x0g7ftf54z7xWTnAZO
 exports.processPayment  = catchAsyncError(async(req, res, next) => {
     const paymentIntent = await stripe.paymentIntents.create({
         amount: req.body.amount,
-        currency: "INR",
+        currency: "inr",
         description: "TEST PAYMENT",
         metadata: { integration_check: "accept_payment"},
         shipping: req.body.shipping
