@@ -13,8 +13,7 @@ const upload = multer({storage: multer.diskStorage({
         cb(null, file.originalname)
     }
 }) })
-const p = path.join( __dirname,'..' , 'uploads/product' )
-console.log(p);
+
 
 router.route('/products').get(getProducts)
 //router.route('/products').get(isAuthenticatedUser,getProducts)
